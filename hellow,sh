@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "enter your name"
+read "name"
+
+echo "enter your lucky number"
+read "number"
+
+
+echo "hello $name"
+echo "ur number is $number"
