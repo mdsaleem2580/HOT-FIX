@@ -1,0 +1,26 @@
+pipeline{
+    agent any
+
+    stages{
+        stage('BUILD'){
+            steps{
+                echo "hellow all welcome to BUILD stage"
+            }
+        }
+        stage('TEST'){
+            steps{
+                echo "hellow all welcome to TEST stage"
+            }
+        }
+        stage('DEPLOY'){
+            steps{
+                echo "hellow all welcome to DEPLOY stage"
+            }
+        }
+        stage('RELEASE'){
+            steps{
+                echo "hellow all welcome to RELEASE stage"
+            }
+        }
+    }
+}
