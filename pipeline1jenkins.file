@@ -22,5 +22,10 @@ pipeline{
                 echo "hellow all welcome to RELEASE stage"
             }
         }
+         stage('REPEAT'){
+            steps{
+                echo "hellow all welcome to REPEAT stage"
+            }
+        }
     }
 }
