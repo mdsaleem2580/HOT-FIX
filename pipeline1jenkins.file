@@ -27,5 +27,10 @@ pipeline{
                 echo "hellow all welcome to REPEAT stage"
             }
         }
+        stage('WEBHOOK'){
+            steps{
+                echo "hellow all welcome to WEBHOOK stage"
+            }
+        }
     }
 }
