@@ -1,1 +1,2 @@
 echo "hellow microdegree this is assignment number 10 MEGRE CONFLICT"
+Hello All this is for ckecking merge conflict.
