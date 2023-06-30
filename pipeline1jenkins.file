@@ -17,10 +17,5 @@ pipeline{
                 echo "hellow all welcome to DEPLOY stage"
             }
         }
-        stage('RELEASE'){
-            steps{
-                echo "hellow all welcome to RELEASE stage"
-            }
-        }
     }
 }
