@@ -16,11 +16,6 @@ pipeline{
             steps{
                 echo "hellow all welcome to DEPLOY stage"
             }
-        }
-        stage('REPEAT'){
-            steps{
-                echo "hellow all welcome to DEPLOY stage"
-            }
-        }
+        } 
     }
 }
